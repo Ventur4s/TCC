@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Garante que o rodapé fique na parte inferior da página */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+}
+
+.menu-central {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espaço entre os itens do menu */
+    font-size: 18px;
+}
+
+.menu-central li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.menu-central li a:hover {
+    color: #f07e13;
+}
+
+.menu-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.botoes-container {
+    display: flex;
+    gap: 10px;
+}
+
+.botao-entrar {
+    background-color: #2457a3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.botao-entrar:hover {
+    background-color: #f07e13;
+}
+
+.botao-cadastrar {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.botao-cadastrar:hover {
+    background-color: #f07e13;
+}
+
+.main {
+    padding: 40px; /* Aumentado para dar mais espaço ao redor do conteúdo principal */
+}
+
+.introducao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px; /* Aumentado para mais espaço interno */
+    background-color: #f0f0f0;
+    margin-bottom: 40px; /* Margem inferior para separação das seções */
+}
+
+.texto-introducao {
+    flex: 1;
+    margin-right: 40px; /* Aumentado para maior espaço entre texto e imagem */
+}
+
+.texto-introducao h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.texto-introducao p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Aumentado para mais espaço abaixo dos parágrafos */
+}
+
+.botao-destaque {
+    background-color: #2457a3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.botao-destaque:hover {
+    background-color: #f07e13;
+}
+
+.imagem-introducao img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.problema, .solucao, .beneficios {
+    padding: 30px;
+}
+
+.problema h2, .solucao h2, .beneficios h2 {
+    font-size: 28px;
+}
+
+.problema p, .solucao p, .beneficios p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.beneficios ul {
+    list-style-type: disc;
+}
+
+.beneficios li {
+    margin-bottom: 15px; 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    background-color: #071d41;
+    color: #ffffff;
+    margin-top: auto; /* Empurra o rodapé para o fundo da página */
+    flex-shrink: 0; /* Garante que o rodapé não encolha */
+    text-align: center; /* Centraliza o texto */
+}
+
+.logobranca {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.redes-sociais a {
+    display: inline-block;
+}
+
+.instagram, .x, .whatsapp {
+    height: 35px;
+    vertical-align: middle;
+}
+
+.parcerias-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 60px 20px; /* Ajustado para uma margem maior e mais espaçada */
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.texto-parcerias {
+    flex: 1;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-right: 40px; /* Aumentado para mais espaço entre texto e imagem */
+}
+
+.texto-parcerias h2 {
+    font-size: 32px;
+    margin-bottom: 20px; /* Aumentado para mais espaço abaixo dos títulos */
+}
+
+.imagem-parcerias {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-parcerias img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}

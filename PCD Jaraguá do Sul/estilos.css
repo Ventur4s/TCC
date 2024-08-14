@@ -1,0 +1,294 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Garante que o rodapé fique na parte inferior da página */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+}
+
+.menu-central {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espaço entre os itens do menu */
+    font-size: 18px;
+}
+
+.menu-central li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.menu-central li a:hover {
+    color: #f07e13;
+}
+
+.menu-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.botao-entrar {
+    background-color: #2457a3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.botao-entrar:hover {
+    background-color: #f07e13;
+}
+
+.botao-cadastrar {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.botao-cadastrar:hover {
+    background-color: #f07e13;
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 20px 80px;
+    background-color: #f0f0f0;
+    font-size: 55px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+}
+
+.linha-horizontal {
+    width: 100%; /* Reduz a largura da linha para melhor centralização */
+    height: 2px;
+    background-color: #333;
+    margin: 10px auto; /* Centraliza horizontalmente */
+}
+
+.subtitulo-cidade {
+    font-size: 45px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o texto */
+}
+
+.imagem-banner {
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+
+.titulo-sobre-nos {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+}
+
+.conteudo-sobre-nos {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 900px;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+    color: #ffffff;
+    background-color: #000000d0;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.texto-apresentacao {
+    font-size: 17px;
+    line-height: 1.6;
+    flex: 2;
+}
+
+.imagem-sobre-nos {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-sobre-nos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.faq {
+    margin: 40px 400px; /* Margens maiores */
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-faq {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.faq-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-item h3 {
+    font-size: 25px;
+    color: #2457a3;
+    font-weight: bold;
+}
+
+.faq-item p {
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    background-color: #071d41;
+    color: #ffffff;
+    margin-top: auto; /* Empurra o rodapé para o fundo da página */
+    flex-shrink: 0; /* Garante que o rodapé não encolha */
+    text-align: center; /* Centraliza o texto */
+}
+
+
+.logobranca {
+    height: 100px;
+}
+
+.instagram {
+    height: 35px;
+}
+
+.x {
+    height: 55px;
+}
+
+.whatsapp {
+    height: 32px;
+}
+.form-container {
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    color: #464646e1;
+    font-size: 15px;
+}
+
+.form-container label {
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2457a3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #071d41;
+    transition: background-color 0.3s ease;
+}
+
+.form-container p {
+    color: #58585894;
+}
+
+.parcerias-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 100px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.texto-parcerias {
+    flex: 1;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-right: 20px;
+}
+
+.texto-parcerias h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.imagem-parcerias {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-parcerias img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}

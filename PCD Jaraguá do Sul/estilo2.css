@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+}
+
+.menu-central {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.menu-central li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.menu-central li a:hover {
+    color: #f07e13;
+}
+
+.botao-entrar, .botao-cadastrar {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.botao-entrar {
+    background-color: #2457a3;
+    color: #fff;
+}
+
+.botao-entrar:hover {
+    background-color: #f07e13;
+}
+
+.botao-cadastrar {
+    background-color: #000000;
+    color: #fff;
+}
+
+.botao-cadastrar:hover {
+    background-color: #f07e13;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.introducao-beneficios {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo-beneficios {
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+}
+
+.subtitulo-beneficios {
+    font-size: 30px;
+    color: #2457a3;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+}
+
+.texto-introducao {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.bloco-beneficio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.conteudo-beneficio {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px; /* Aumenta o espaço entre texto e imagem */
+    margin: 0 auto;
+    max-width: 1200px; /* Garante que o conteúdo tenha um tamanho máximo */
+}
+
+.texto-beneficio {
+    max-width: 600px;
+    flex: 1;
+    margin: 0 20px; /* Margem mais equilibrada ao redor do texto */
+}
+
+.texto-beneficio h3 {
+    font-size: 25px;
+    color: #2457a3;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.texto-beneficio p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.imagem-beneficio {
+    flex: 1;
+    margin: 0 20px; /* Ajusta a margem ao redor da imagem */
+}
+
+.imagem-beneficio img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover; /* Mantém as imagens consistentes em tamanho e proporção */
+    width: 100%; /* Garante que a imagem preencha seu contêiner */
+    max-height: 900px; /* Define uma altura máxima para as imagens */
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    background-color: #071d41;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer img {
+    margin: 0 10px;
+}
+
+.logobranca {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.instagram, .x, .whatsapp {
+    height: 35px;
+    margin: 0 10px;
+}
